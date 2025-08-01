@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
-
-
 body{
 color: darkblue;
-background-color: white;
+background-color: rgb(10, 226, 93);
 margin: 0px;
 margin-bottom: 100px;
 font-family: "Roboto Mono", monospace;
@@ -24,7 +21,6 @@ header{
     margin: 20px;
     font-size: 32px;
     color: blue;
-
 }
 
 section{
@@ -40,9 +36,52 @@ h1{
 color: beige;
 font-size: 40px;
 
-
 }
 p{
 font-size: 20px;
 
 }
+.categoria{
+
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+img{
+
+    height: 200px;
+}
+
+.categoria-videos img{
+
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+
+opacity:1.0;
+border: 3px solid #c6a974;
+
+}
+
+.categoria h2{
+color: #a58e63;
+
+}
+
+.chamada-texto{
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    background-color: #0c0c0c;
+    color: #c6a974;
+}
+ 
