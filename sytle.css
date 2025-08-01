@@ -18,3 +18,31 @@ font-size: 40px;
 p{
     font-size: 20px;
 }
+
+header{
+    border-bottom: solid 2px #CC3D21;
+    margin: 20px;
+    font-size: 32px;
+    color: blue;
+
+}
+
+section{
+ padding-bottom: 80px ;
+padding-top: 80px;
+background: #CC3D21;
+display: flex;
+justify-content: center;
+color: aqua;
+}
+
+h1{
+color: beige;
+font-size: 40px;
+
+
+}
+p{
+font-size: 20px;
+
+}
